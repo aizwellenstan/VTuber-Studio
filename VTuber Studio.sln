@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR", "SteamVR.csproj", "{C64CE6CF-D7CF-79DE-F227-3454B808BFDD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRM", "VRM.csproj", "{16B92E64-A160-4864-5634-212C57035A74}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniJSON", "UniJSON.csproj", "{806420F8-4A4C-A9CF-E064-5BD7A3FC53A6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstScheduler", "DepthFirstScheduler.csproj", "{6CCE7FE4-AA7C-C106-89F5-22F065E9B5D0}"
 EndProject
@@ -57,6 +57,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C64CE6CF-D7CF-79DE-F227-3454B808BFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C64CE6CF-D7CF-79DE-F227-3454B808BFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64CE6CF-D7CF-79DE-F227-3454B808BFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,10 +73,6 @@ Global
 		{806420F8-4A4C-A9CF-E064-5BD7A3FC53A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{806420F8-4A4C-A9CF-E064-5BD7A3FC53A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{806420F8-4A4C-A9CF-E064-5BD7A3FC53A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E82DAE3B-0EE1-9221-B17B-DA6B3F86BD1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6CCE7FE4-AA7C-C106-89F5-22F065E9B5D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CCE7FE4-AA7C-C106-89F5-22F065E9B5D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CCE7FE4-AA7C-C106-89F5-22F065E9B5D0}.Release|Any CPU.ActiveCfg = Release|Any CPU

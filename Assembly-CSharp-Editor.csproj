@@ -706,6 +706,14 @@
       <Project>{16B92E64-A160-4864-5634-212C57035A74}</Project>
       <Name>VRM</Name>
     </ProjectReference>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{7E9780C6-B0E1-F61B-6077-7BD8089AD937}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{32290B85-E016-D154-6774-B47AC1A48387}</Project>
+      <Name>SteamVR_Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UniVRM.Editor.csproj">
       <Project>{F8488587-9D9F-70EF-2BFC-82BE5D8C6288}</Project>
       <Name>UniVRM.Editor</Name>
@@ -713,6 +721,10 @@
     <ProjectReference Include="UniUnlit.csproj">
       <Project>{52C1BC96-B799-F528-2B4A-33E0CDE32486}</Project>
       <Name>UniUnlit</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{C64CE6CF-D7CF-79DE-F227-3454B808BFDD}</Project>
+      <Name>SteamVR</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Actions.csproj">
       <Project>{191B245A-3CCB-BE3B-D4DA-58793F3F40E7}</Project>
@@ -725,18 +737,6 @@
     <ProjectReference Include="ShaderProperty.Runtime.csproj">
       <Project>{5C8632ED-C4E2-0588-AC63-296B6B8B860C}</Project>
       <Name>ShaderProperty.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Input_Editor.csproj">
-      <Project>{7E9780C6-B0E1-F61B-6077-7BD8089AD937}</Project>
-      <Name>SteamVR_Input_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR_Editor.csproj">
-      <Project>{32290B85-E016-D154-6774-B47AC1A48387}</Project>
-      <Name>SteamVR_Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SteamVR.csproj">
-      <Project>{C64CE6CF-D7CF-79DE-F227-3454B808BFDD}</Project>
-      <Name>SteamVR</Name>
     </ProjectReference>
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{6FCB9394-A5F0-072B-58A6-B45907261DDB}</Project>
